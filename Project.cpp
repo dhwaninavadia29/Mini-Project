@@ -4,12 +4,12 @@
 using namespace std;
 
 class InventoryItem {
-public:
+private:
     string itemName;
     int itemQty;
     double itemprice;
 
-private:
+public:
     InventoryItem(const string& name, int Qty, double price)
         : itemName(name), itemQty(Qty), itemPrice(price) {}
 
